@@ -17,7 +17,6 @@
   - **React**
   - **Redux Toolkit**
   - **TypeScript**
-  - **RTC Query **
 ## Начало работы
 
 ### Установка
