@@ -26,7 +26,7 @@ const login = async (req, res) => {
 
   const secret = process.env.JWT_SECRET;
 
-  if (user && isPasswordCorrect) {
+  if (user && isPasswordCorrect && secret) {
     res.status(200).json({
       id: user.id,
       email: user.email,
