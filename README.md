@@ -17,7 +17,7 @@
   - **React**
   - **Redux Toolkit**
   - **TypeScript**
-
+  - **RTC Query **
 ## Начало работы
 
 ### Установка
@@ -37,7 +37,7 @@ npm run server
 npm start
 ### Prisma Studio
 
-Для открытия **Prisma Studio**:
+Для открытия меню ORM **Prisma Studio**:
 npx prisma studio
 ## Дополнительная информация
 
