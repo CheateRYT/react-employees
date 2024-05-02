@@ -23,6 +23,8 @@ model Employee{
   lastName    String
   age         String
   address     String
+  Salary      String
+  Permission  String
   user User @relation(fields: [userId], references: [id])
   userId      String
 }
