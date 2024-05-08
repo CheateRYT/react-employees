@@ -5,7 +5,7 @@ type Props = {
   children: React.ReactNode;
   htmlType?: "button" | "submit" | "reset";
   onClick?: () => void;
-  type?: "default" | "link" | "text" | "primary" | "dashed";
+  type?: "link" | "default" | "text" | "primary" | "dashed" | "ghost";
   danger?: boolean;
   loading?: boolean;
   shape?: "default" | "circle" | "round";
