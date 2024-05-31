@@ -6,7 +6,7 @@ type Props = {
   placeholder: string;
   type?: string;
 };
-
+//lol
 const CustomInput: React.FC<Props> = ({ name, placeholder, type = "text" }) => {
   return (
     <Form.Item
